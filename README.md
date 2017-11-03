@@ -14,4 +14,4 @@ Change `compilerOptions` -> `declaration` value between `true` and `false`, then
 
 Error will happen when `declaration` is `true`.
 
-> Thanks **bbuchanan** for the cause.
+> Thanks [**bbuchanan**](https://forum.vuejs.org/u/bbuchanan) for the cause.
