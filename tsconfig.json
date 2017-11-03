@@ -8,7 +8,8 @@
 			"es5",
 			"es2015"
 		],
-		"sourceMap": true
+		"sourceMap": true,
+		"declaration": true
 	},
 	"include": [
 		"./src/**/*",
