@@ -1,0 +1,44 @@
+{
+  "name": "vue-typescript-export-issue",
+  "version": "0.0.0",
+  "description": "A repo to repro export issue.",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} webpack-dev-server --config ./config/webpack.config.dev.ts --hot --inline --open",
+    "prebuild": "rimraf ./dist",
+    "build": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} webpack --config ./config/webpack.config.prod.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/vue-typescript-export-issue.git"
+  },
+  "keywords": [],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gluons/vue-typescript-export-issue/issues"
+  },
+  "homepage": "https://github.com/gluons/vue-typescript-export-issue#readme",
+  "dependencies": {
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^2.28.0",
+    "@types/node": "^8.0.47",
+    "@types/webpack": "^3.0.14",
+    "@types/webpack-merge": "^4.1.0",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^3.1.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-merge": "^4.1.1"
+  }
+}
