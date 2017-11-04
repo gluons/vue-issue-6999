@@ -10,7 +10,8 @@ Default export of the module has or is using private name 'VueConstructor'
 
 ## Step to repro
 
-Change `compilerOptions` -> `declaration` value between `true` and `false`, then `yarn build` or `yarn dev`
+Change `compilerOptions` -> `declaration` config in [**`tsconfig.json`**](./tsconfig.json) between `true` and `false`.  
+Then `yarn build` or `yarn dev`.
 
 Error will happen when `declaration` is `true`.
 
