@@ -16,3 +16,7 @@ Then `yarn build` or `yarn dev`.
 Error will happen when `declaration` is `true`.
 
 > Thanks [**bbuchanan**](https://forum.vuejs.org/u/bbuchanan) for the cause.
+
+## An issue on Vue
+
+[vuejs/vue#6999](https://github.com/vuejs/vue/issues/6999)
